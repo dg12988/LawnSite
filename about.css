@@ -1,0 +1,265 @@
+/*
+			  Edwin's Grand Slam Landscaping 
+			  Author: Doug Goldberg
+			  Date:   3/3/2014
+			  
+			  Cascading Style Sheet for about page
+
+			  Filename: about.css
+*/
+
+body{
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 98%;
+	max-width: 980px;
+	min-width: 250px; 
+	font-family: Arial, sans-serif;
+
+	height: 1500px;
+	
+	background: -webkit-linear-gradient(rgb(140, 190, 214), white);
+	background: -o-linear-gradient(rgb(140, 190, 214), white); 
+	background: -moz-linear-gradient(rgb(140, 190, 214), white); 
+	background: linear-gradient(rgb(140, 190, 214), white); 
+}
+
+	
+.flyer{
+	float: center;
+	margin-top: 5px;
+	margin-left: 140px;
+	height: 369px;
+	width: 700px;
+	
+	
+	  /* Rounded edges on border of image */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 50x;
+	
+	
+}
+
+p{
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+
+.center{
+	text-align: center;
+	
+}
+.picLeft{
+	height:200px;
+	width:275px;
+	margin-bottom: 50px;
+	margin-right: 5px;
+	
+
+	
+/* Rounded edges on border of image */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 10px;
+	
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-left-radius:0px;
+	-webkit-border-bottom-right-radius: 10px;
+	
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	-moz-border-bottom-right-radius: 10px;
+	
+
+
+
+}
+
+.picRight{
+        height:200px;
+	width:265px;
+	margin-bottom: 50px;
+	margin-right:6px;
+	margin-left:4px;
+	
+	
+	/* Rounded edges on border of image */
+	border-top-left-radius: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius:0px;
+	
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 0px;
+	
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	-moz-border-bottom-right-radius: 0px;
+	
+}
+
+
+.truck{
+     height:250px;
+     width:350px;
+     padding-top: 21px;
+     margin-left:3px;
+ 
+
+/* Rounded edges on border of image */
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-left-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	
+}
+aside {
+   float:center;
+   background-size:100% 105%;
+   background-repeat:no-repeat;
+   width:100%;
+   text-align: center;  
+   background-image:url(back.png);     
+   padding-top: 10px;
+
+   margin-bottom: 10px;
+}
+nav {
+  background: rgb(0,104,139);
+  height:40px;
+  
+  /* Rounded edges on border of image */
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-left-radius: 20px;
+	-moz-border-bottom-right-radius: 20px;
+}
+ 
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  color: rgb(255,255,255);
+  background: rgb(0,104,139);  
+  
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+ 
+/*Fades image in */ 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  
+  margin-left: 15px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:90px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+
+footer{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	font-weight: bolder;
+	clear: left;
+	clear: right;
+	font-size: .7em;
+	vertical-align: bottom;
+	font-style: normal;
+	background:url(footer.png);
+	background-repeat: no-repeat;
+	color: black;
+	font-variant: small-caps;
+	text-align: center;
+	margin-top: 10px;
+	padding-left: 2px;
+	font-size: x-small;
+	padding-right: 2px;
+	
+	
+	
+
+}

@@ -1,0 +1,292 @@
+/*
+			  Edwin's Grand Slam Landscaping 
+			  Author: Doug Goldberg
+			  Date:   3/3/2014
+			  
+			  Cascading Style Sheet for main layout
+
+			  Filename: contact.css
+*/
+
+body{
+	margin: 0px auto;
+	
+	
+	line-height: 1.5em;
+	max-width: 980px;
+	min-width: 250px; 
+	font-family: Verdena, sans-serif;
+	
+	height: 1200px;
+	
+		
+	background: -webkit-linear-gradient(rgb(140, 190, 214), white);
+	background: -o-linear-gradient(rgb(140, 190, 214), white); 
+	background: -moz-linear-gradient(rgb(140, 190, 214), white); 
+	background: linear-gradient(rgb(140, 190, 214), white); 
+	
+.flyer{
+	float: center;
+	margin-top: 5px;
+
+	margin-left: 140px;
+	height: 369px;
+	width: 700px;
+	
+	
+	  /* Rounded edges on border of image */
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	
+	
+}
+
+
+}
+aside {
+   float:center;
+   width:100%;
+   text-align: center;  
+   background-image:url("back.png");     
+   background-repeat:no-repeat;
+   height: 650px;
+   padding-top: 50px;
+   margin-top: 10px;
+   margin-left: 15px;
+ 	
+}
+textarea:focus, input:focus{
+    outline: 0;
+    
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+
+}
+form{
+	width: 500px;
+	height: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+	margin-bottom:30px;
+	
+	
+	background: -webkit-radial-gradient(rgb(140, 190, 214), white);
+	background: -o-radial-gradient(rgb(140, 190, 214), white); 
+	background: -moz-radial-gradient(rgb(140, 190, 214), white); 
+	background: radial-gradient(rgb(140, 190, 214), white); 
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	
+	
+	border: solid 1px;
+	border-color:rgba(0,0,0,.2);
+
+	
+
+}
+/*Placeholder For Fields*/
+input::-webkit-input-placeholder {
+	color: rgba(0,5,143,.5);
+	text-transform: small-caps;
+	
+	 
+	
+	
+}
+
+input::-moz-placeholder {
+	color: rgba(0,5,143,.5);
+	text-transform: small-caps;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	color: rgba(0,5,143,.5);
+	text-transform: small-caps;
+}
+input:-ms-input-placeholder { 
+	color: rgba(0,5,143,.5);
+	text-transform: small-caps;
+}
+
+
+.fields{
+       width:60%;
+       height:5%;
+       	margin-left:auto;
+	margin-right:auto;
+	margin-top:12px;
+	margin-bottom:auto;
+	
+	  -webkit-opacity: 0.5;
+	  -moz-opacity: 0.5;
+	  opacity: 0.5;
+	 
+	/*Fades image in */ 
+	  -webkit-transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -ms-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  transition: all 1s ease;
+
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	
+	box-shadow:2px 2px 1px rgba(0,0,0,.2);
+	text-indent: 15px;
+	
+}
+.fields:hover{
+
+
+	-webkit-opacity: 1;
+	  -moz-opacity: 1;
+	  opacity: 1;
+}
+
+.submitButton{
+
+	color: rgb(255,255,255);
+	background-color: rgba(0,104,139,.7);
+	
+	height: 30px;
+	width: 125px;
+	margin-top: 10px;
+	margin-right:7px;
+	font-size: 15px;
+	
+	/*Fades image in */ 
+	  -webkit-transition: all 1s ease;
+	  -moz-transition: all 1s ease;
+	  -ms-transition: all 1s ease;
+	  -o-transition: all 1s ease;
+	  transition: all 1s ease;
+	
+	border: solid 2px;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;	
+	
+	box-shadow:2px 2px 1px rgba(0,0,0,.2);
+
+}
+.submitButton:hover{
+	background-color:  rgba(0,153,51,.5);
+		
+}
+.paddingRight{
+	padding-right: 10px;
+}
+
+
+.head1{
+
+font-family: Georgia, "Times New Roman", Times, serif;
+	
+	font-weight: bolder;
+	clear: left;
+	clear: right;
+	font-size: 30px;
+	vertical-align: top;
+	font-style: normal;
+	background-color: red;
+
+	color: white;
+	font-variant: small-caps;
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+
+}
+.head2{
+	font-weight: bolder;
+	clear: left;
+	clear: right;
+	font-size: 20px;
+	vertical-align: top;
+	font-style: normal;
+	background-color: red;
+
+	color: white;
+	font-variant: small-caps;
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+	
+
+
+}
+
+footer{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	font-weight: bolder;
+	clear: left;
+	clear: right;
+	font-size: .7em;
+	vertical-align:bottom;
+	font-style: normal;
+	background-color: red;
+
+	color: white;
+	font-variant: small-caps;
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+	position:relative;
+	bottom:20px;
+
+}

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		   <!--
+			  Edwin's Grand Slam Landscaping 
+			  Author: Doug Goldberg
+			  Date:   3/3/2014
+
+			  Contact Us HTML homepage
+				
+			  Filename: contact.html
+			   -->
+
+			    <meta charset="UTF-8" />
+				<title>Edwins Grand Slam Lawn Care</title> 
+				<link href="contact.css" rel="stylesheet" type="text/css"/>
+				<link type="image/ico" rel="icon" href="favicon.ico"/>	
+				<?php include 'email.php'; ?>
+				
+			
+					
+				<nav>
+					<ul>
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="about.html">About Us</a></li>
+					  <li><a href="gallery.html">Photos</a></li>
+					  <li><a href="contact.html">Contact Us</a></li>
+					</ul>					
+				</nav>
+					
+				
+					
+    </head>
+	
+	
+	<body>
+	
+		
+		<aside> 
+					
+			<img src="form.png" alt=""/>
+			
+			<form action="email.php" method="post">
+				<input class="fields" type="text" name="first_name" placeholder="First Name" required><br>
+				<input class="fields" type="text" name="last_name" placeholder="Last Name" required><br>
+				<input class="fields" type="email" name="email" placeholder="Email" required><br>
+				<input class="fields" type="tel" name="phone" placeholder="Phone" required><br>
+				<br><textarea class="message" rows="5" name="message" cols="30" placeholder="Write your message here!" required></textarea><br>
+				<input class="submitButton" type="submit" name="submit" value="Submit" >
+				
+				
+			</form>
+			
+									
+		</aside>
+		
+	
+	</body>
+	
+	<footer>
+		<p><b>Edwins Grand Slam Lawn Care</b> is a locally operated landscaping business servicing the Oviedo and Orlando areas.
+					Call <b>407-924-6095</b> for more information.</p>	
+	</footer>
+	
+</html>

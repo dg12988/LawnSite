@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		   <!--
+			  Edwin's Grand Slam Landscaping 
+			  Author: Doug Goldberg
+			  Date:   3/3/2014
+
+			  Main HTML homepage
+				
+			  Filename: index.html
+			   -->
+
+			    <meta charset="UTF-8" />
+				<title>Edwins Grand Slam Lawn Care</title> 
+				
+				<link href="index.css" rel="stylesheet" type="text/css" media="only screen and (min-width:501px)"/>
+				<link href="mobile.css" rel="stylesheet" media="only screen and (max-width: 500px)" />
+				
+				<link type="image/ico" rel="icon" href="favicon.ico"/>	
+				
+				<!-- Link to javascript Jquery and Lightbox code -->	
+					<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+			
+				
+				
+								
+				<nav>
+					<ul>
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="about.html">About Us</a></li>
+					  <li><a href="gallery.html">Photos</a></li>
+					  <li><a href="contact.html">Contact Us</a></li>
+					  
+					</ul>					
+				</nav>
+					
+				
+    </head>
+	
+	
+	<body>
+	
+					
+				
+		<img src="main.jpg" class="flyer" alt="" />
+		
+		
+		
+		<div id="wrapper">
+		
+		    <p>
+		        <ul class="gallery">
+		            <li>
+		                <a href="photos/listPic1.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic1.JPG"/></a>
+		                
+		            </li>
+		            <li>
+		            	<a href="photos/listPic2.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic2.JPG" /></a>
+		                
+		            </li>
+		            <li>
+		            	<a href="photos/listPic3.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic3.JPG" /></a>
+		                
+		            </li>
+		            <li>
+		                <a href="photos/listPic4.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic4.JPG" 				/></a>
+		                
+		            </li>
+		            <li>
+		                <a href="photos/listPic5.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic5.JPG" 				/></a>
+		                
+		            </li>
+		            <li>
+		                <a href="photos/listPic6.JPG" class="lightbox_trigger"><img class="listPic" src="photos/listPic6.JPG" 			/></a>
+		                		                
+		            </li>
+		            
+		            <a href="https://www.facebook.com/edwinsgrandslamlawncare"><img class="fb" src="photos/facebook.gif"                /></a>
+		            
+		        </ul>
+		     </p>
+		</div> <!-- #/wrapper -->
+	
+	
+	
+	
+	<script>
+		jQuery(document).ready(function($) {
+		     
+		    $('.lightbox_trigger').click(function(e) {
+		         
+		        
+		        e.preventDefault();
+		         
+		
+		        var image_href = $(this).attr("href");
+		         
+		  
+		        if ($('#lightbox').length > 0) { // #lightbox exists
+		             
+		            //place href as img src value
+		            $('#content').html('<img src="' + image_href + '" />');
+		               var maxheightvalue = $("#lightbox").height() - 60;
+			      $("#lightbox img").css("max-height", maxheightvalue + "px");
+		           
+		            $('#lightbox').fadeIn(100);
+		        }
+		         
+		        else { 
+		             
+		          
+		            var lightbox = 
+		            '<div id="lightbox" inline style="display:none" >' +
+		                '<p>Click to close</p>' +
+		                '<div id="content">' + 
+		                    '<img src="' + image_href +'" />' +
+		                '</div>' +    
+		            '</div>';
+		                 
+		          
+		            $('body').append(lightbox);
+		        }
+		         
+		    });
+		     
+		   
+		    $('#lightbox').live('click', function() { 
+		      	        
+		        $('#lightbox').fadeOut(100);
+		    });
+		 
+		});
+		</script>	
+		
+	<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+	
+	
+	
+	</body>
+		
+	
+	<footer>
+		<p><b>Edwins Grand Slam Lawn Care</b> is a locally operated landscaping business servicing the Oviedo and Orlando areas.
+					Call <b>407-924-6095</b> for more information.</p>	
+	</footer>
+	
+	
+</html>
